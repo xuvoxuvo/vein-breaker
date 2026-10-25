@@ -1,0 +1,13 @@
+[package]
+name = "vb_game"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bevy = "0.20"
+avian3d = "0.8"
+vb_core = { path = "../vb_core" }
+
+[[bin]]
+name = "vb_game"
+path = "src/main.rs"
